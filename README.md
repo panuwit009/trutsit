@@ -21,7 +21,7 @@ After installing Composer, go to the project directory you just cloned and run t
 composer install
 ```
 
-4. Set Up the MySQL Database
+### 4. Set Up the MySQL Database
 Go to phpMyAdmin
 
 Log in using the username and password you set up when you installed AppServ
@@ -34,7 +34,7 @@ After creating the database, select it, and then click on the Import tab
 
 Choose the thesissearchsystem.sql file from the project folder you cloned and click Go to import the database structure and sample data
 
-5. Configure Database Connection in config.php
+### 5. Configure Database Connection in config.php
 Open the config.php file located in the project folder
 
 Update the following configuration with the details from your AppServ MySQL installation:
@@ -46,7 +46,7 @@ $username = 'your-mysql-username';
 $password = 'your-mysql-password';
 ```
 
-6. Access the System via Web Browser
+### 6. Access the System via Web Browser
 Once everything is set up, you can access the system by navigating to the following URL in your browser: http://localhost/(your-project-folder-name)
 
 ### Summary
