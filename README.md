@@ -11,7 +11,8 @@ We recommend using **AppServ version 9.3.0** as it is easy to install and works 
 ### 2. Clone the Project to Your Local Machine
 After installing AppServ, go to the directory where you installed AppServ. Inside the **`www`** folder, clone this project into it:
   ```bash
-  git clone https://github.com/panuwit009/trutsit.git```
+  git clone https://github.com/panuwit009/trutsit.git
+```
 
 ### 3. Install Composer
 If you don't have Composer installed yet, you can download it from the Composer website.
@@ -38,10 +39,12 @@ Open the config.php file located in the project folder
 
 Update the following configuration with the details from your AppServ MySQL installation:
 
+```php
 $host = 'localhost';
 $dbname = 'your-database-name';
 $username = 'your-mysql-username';
 $password = 'your-mysql-password';
+```
 
 6. Access the System via Web Browser
 Once everything is set up, you can access the system by navigating to the following URL in your browser: http://localhost/(your-project-folder-name)
