@@ -1,0 +1,21 @@
+{
+    "name": "tin/thesissearchsystem",
+    "description": "A web application for searching and managing thesis data for the Information Technology Faculty.",
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "setasign/fpdf": "^1.8",
+        "setasign/fpdi": "^2.6"
+    },
+    "license": "???",
+    "autoload": {
+        "psr-4": {
+            "Tin\\Thesissearchsystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "panuwit",
+            "email": "tinpnw01@gmail.com"
+        }
+    ]
+}
