@@ -504,7 +504,7 @@ gap: 10px;
 <body>
 <div class="header" style="display: flex; justify-content: space-between; align-items: center;">
         <div class="message-box" style="text-align: center; padding: 10px;">
-    <a href="https://trutsit.atwebpages.com/" style="text-decoration: none; color: inherit;">
+    <a href="./" style="text-decoration: none; color: inherit;">
         <div>
             <span style="font-size: 40px; font-weight: bold;">TRU T-Sit</span>
         </div>
